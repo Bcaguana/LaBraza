@@ -1,0 +1,59 @@
+body {
+    background-color: beige;
+    margin: 0;
+        text-decoration: none;
+}
+
+#main-header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid red;
+}
+
+#brand-logo {
+    padding: 1rem;
+}
+
+#main-header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#main-header li {
+    padding: 1rem;
+}
+
+#main-header a {
+    text-decoration: none;
+}
+
+
+#main-logo {
+    margin: 5rem auto auto auto;
+}
+
+footer {
+    background-color: black;
+}
+
+#socials {
+    list-style: none;
+}
+
+#socials img{
+    height: 3rem;
+}
+
+
+@media (max-width: 728px) {
+    #main-header {
+        justify-content: center;
+    }
+
+    #main-header ul {
+        display: none;
+    }
+}
