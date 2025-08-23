@@ -1,0 +1,30 @@
+#main-header {
+    height: 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(187, 30, 1);
+    overflow: hidden;
+}
+
+#main-header img {
+    height: 16rem;
+}
+
+#presentation {
+    height: 100rem;
+    background-image: url("/assets/staff/341513527_5937221473042951_5419865100386310143_n.webp");
+    background-size: cover;
+    filter: brightness();
+}
+
+h1 {
+    color: white;
+}
+
+#contact-image {
+    position: fixed;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(20%);
+}

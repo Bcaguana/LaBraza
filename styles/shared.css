@@ -5,14 +5,31 @@ body {
 }
 
 #main-header {
-    height: 5rem;
+    height: 16rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid red;
+    background-color: rgb(255, 49, 49);
+    overflow: hidden;
+}
+
+#main-header a {
+        object-fit: cover;
+
+}
+
+#main-header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #brand-logo {
+    font-family: "Baskerville Old Face", "Sans-serif";
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
     padding: 1rem;
 }
 
