@@ -14,17 +14,18 @@
 #presentation {
     height: 100rem;
     background-image: url("/assets/staff/341513527_5937221473042951_5419865100386310143_n.webp");
+    background-position: center;
     background-size: cover;
-    filter: brightness();
+    filter: brightness(50%);
 }
 
 h1 {
+    margin: 0;
     color: white;
 }
 
 #contact-image {
-    position: fixed;
     width: 100%;
-    object-fit: cover;
+    object-fit:scale-down;
     filter: brightness(20%);
 }
