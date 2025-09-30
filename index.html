@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link href="/styles/shared.css" rel="stylesheet" />
     <title>La Braza</title>
   </head>
@@ -13,15 +19,69 @@
       <nav>
         <ul id="navigation">
           <li>
-            <a href="/about.html">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="/contact.html">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </nav>
+      <a href="#top-drawer" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </header>
+    <aside id="top-drawer">
+      <a href="#">X</a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
     <main>
+      <img
+        id="home-image"
+        src="assets/staff/66582692_2369752213298160_2463929691543699456_n.webp"
+      />
+      <div id="food">
+        <ul>
+          <li>
+            <h2>Bringing authentic Ecuadorian flavors you won't forget</h2>
+            <img src="assets/food/LaBraza_Skewer.webp" alt="skewer" />
+          </li>
+          <li>
+            <img src="assets/food/LaBraza_Arepa.webp" alt="arepa" />
+            <h2>And this is also why our food is good</h2>
+          </li>
+          <li>
+            <h2>And this is also why our food is good</h2>
+            <img src="assets/food/LaBraza_Skewer_2.webp" alt="skewer" />
+          </li>
+        </ul>
+      </div>
+      <div id="about">
+        <ul>
+          <li>
+            <h2>About Us</h2>
+            <img src="assets/icons/Screenshot 2025-08-14 212832.png" alt="aboutUs">
+          </li>
+        </ul>
+      </div>
+      <div id="contact">
+        <p>Contact Us</p>
+        <p>Want to See Us at your next event?</p>
+        <img
+          id="contact-image"
+          src="assets/staff/341513527_5937221473042951_5419865100386310143_n.webp"
+        />
+      </div>
     </main>
     <footer>
       <img src="assets/icons/LaBraza-logo.webp" id="main-logo" />
@@ -30,11 +90,13 @@
           <a href="https://www.facebook.com/LabrazaNY/">
             <img src="assets/icons/facebook.png" alt="Facebook" />
           </a>
+          <p>labrazany</p>
         </li>
         <li>
           <a href="https://www.instagram.com/labrazany/"
             ><img src="assets/icons/insta.png" alt="Instagram"
           /></a>
+          <p>labrazany</p>
         </li>
       </ul>
     </footer>
